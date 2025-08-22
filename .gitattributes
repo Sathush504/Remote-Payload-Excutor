@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.md text
+*.txt text
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.exe binary
+*.py linguist-language=Python
+*.ps1 linguist-language=PowerShell
+/docs/ linguist-vendored
+*.html linguist-detectable=false
+/vendor/ linguist-vendored
