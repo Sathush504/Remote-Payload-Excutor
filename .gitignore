@@ -1,0 +1,40 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# HID / Rubber Ducky / Payload output files
+*_encoded.txt
+*.bin
+*.hex
+
+# Sensitive or secret files
+*.key
+*.pem
+*.crt
+
+# Optional: large payload testing files
+*.payload
+*.ps1.orig
